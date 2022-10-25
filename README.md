@@ -9,7 +9,10 @@ GLADOS Automatic Check-in -- AWS lambda Version
 
 ## 项目功能
 
-利用 [AWS lambda](https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-southeast-1) 进行云函数编程，实现[Glados](https://glados.rocks/console) 自动签到，并将签到结果推送至企业微信
+* 基于云函数签到
+* 基于 `Git Action` 的签到：https://github.com/xiabee/glados-checkin
+
+* 利用 [AWS lambda](https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-southeast-1) 进行云函数编程，实现[Glados](https://glados.rocks/console) 自动签到，并将签到结果推送至企业微信
 
 ![image.png](https://tva1.sinaimg.cn/large/0084b03xgy1h7hz51nsbbj31pq0rmty1.jpg)
 
