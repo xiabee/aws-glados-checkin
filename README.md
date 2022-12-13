@@ -2,21 +2,21 @@
 GLADOS Automatic Check-in -- AWS lambda Version
 
 * Author: [xiabee](https://github.com/xiabee)
-* Update time: 2022.10.25
+* Update time: 2022.12.13
 * Version: 1.0
 
 
 
 ## 项目功能
 
-* 基于云函数签到
-* 基于 `Git Action` 的签到：https://github.com/xiabee/glados-checkin
-
+* 基于 AWS 云函数签到
 * 利用 [AWS lambda](https://ap-southeast-1.console.aws.amazon.com/lambda/home?region=ap-southeast-1) 进行云函数编程，实现[Glados](https://glados.rocks/console) 自动签到，并将签到结果推送至企业微信
 
 ![image.png](https://tva1.sinaimg.cn/large/0084b03xgy1h7hz51nsbbj31pq0rmty1.jpg)
 
-
+* 为什么放弃基于 `Git Action` 的签到：https://github.com/xiabee/glados-checkin
+  * `GitHub` 曾经对利用 `Action` 签到的仓库进行封禁，当今使用 `Action` 进行签到等功能不是很安全
+  * AWS Lambda 对于签到这个功能来说，基本就是免费（因为每个月免费额度很多，仅靠签到是完全用不完的）
 
 ## 编译模式
 
