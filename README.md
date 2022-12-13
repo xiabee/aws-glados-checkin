@@ -32,4 +32,21 @@ zip main.zip main
 
 ## 使用方式
 
-待更新
+* 直接编译上传至 AWS Lambda，程序入口点设置为`main`
+
+* 设置一下 Glados 的 `COOKIE`，COOKIE 获取过程参考`附录`
+* 如果需要连接企业微信机器人，可以设置一下`WECHAT_KEY`，具体的机器人设置参考本篇：https://blog.xiabee.cn/posts/wechat-bot/
+
+* AWS Lambda 详细使用过程参考本篇：https://blog.xiabee.cn/posts/aws-lambda/
+
+
+
+## 附录
+
+### Cookie 获取方式
+
+* 登录[控制台](https://glados.rocks/console)之后，`F12`打开浏览器的开发者工具
+* 找到 `Network` / `网络`，选中 `console` 那个包
+* 在请求头中找到 `cookie` 字段
+
+<img src="https://tva1.sinaimg.cn/large/0084b03xgy1h7f4k2lqajj31vo0zk1iq.jpg" alt="image.png" style="zoom:67%;" />
